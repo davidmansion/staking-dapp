@@ -972,7 +972,7 @@ let contractCall = "sevenDays";
 
 let currentAddress;
 
-let web3Main = new Web3("https://rpc.ankr.com/polygon_mumbai");
+let web3Main = new Web3("https://rpc.ankr.com/bsc");
 
 // Create an instance of Notyf
 var notyf = new Notyf({
