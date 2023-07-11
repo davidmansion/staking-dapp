@@ -1,11 +1,11 @@
-const _NETWORK_ID = 80001;
+const _NETWORK_ID = 56;
 let SELECT_CONTRACT = {};
 
 const _API_URL = "https://7yjhmmd390.execute-api.ap-south-1.amazonaws.com/prod";
 
 SELECT_CONTRACT[_NETWORK_ID] = {
-  network_name: "Polygon Mumbai",
-  explorer_url: "https://mumbai.polygonscan.com/",
+  network_name: "mainnet",
+  explorer_url: "https://bsc-dataseed.binance.org/",
   STACKING: {
     //0x4cA2a661F6bA50c59Eb0854ff6F1B06e228f72b6
     sevenDays: {
