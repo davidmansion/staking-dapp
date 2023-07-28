@@ -62,7 +62,7 @@ async function loadInitialData(sClass) {
     document
       .querySelectorAll(".early-unstake-fee-value")
       .forEach(function (element) {
-        element.innerHTML = `${earlyUnstakeFee / 10000}%`;
+        element.innerHTML = `${earlyUnstakeFee / 1}%`;
       });
 
     let minStakeAmount = await cObj.methods.getMinimumStakingAmount().call();
