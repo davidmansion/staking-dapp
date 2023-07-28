@@ -12,13 +12,13 @@ SELECT_CONTRACT[_NETWORK_ID] = {
       address: "0x73f8F3af170be9bD1A1f8143844609CD913f4f27",
     },
     tenDays: {
-      address: "0x73f8F3af170be9bD1A1f8143844609CD913f4f27",
+      address: "0xCBeba0091a0d28F61fab8DC8c24a232b3fb5d51C",
     },
     thirtyTwoDays: {
-      address: "0x73f8F3af170be9bD1A1f8143844609CD913f4f27",
+      address: "0x020E737e8F9D73288DFCC76e1544e48409a50eDD",
     },
     ninetyDays: {
-      address: "0x73f8F3af170be9bD1A1f8143844609CD913f4f27",
+      address: "0xC28Ebf2870ff263Ab31a6fc894Ad033060b92CF6",
     },
     abi: [
       {
