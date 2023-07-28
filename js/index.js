@@ -62,7 +62,7 @@ async function loadInitialData(sClass) {
     document
       .querySelectorAll(".early-unstake-fee-value")
       .forEach(function (element) {
-        element.innerHTML = `${earlyUnstakeFee / 100}%`;
+        element.innerHTML = `${earlyUnstakeFee / 10000}%`;
       });
 
     let minStakeAmount = await cObj.methods.getMinimumStakingAmount().call();
@@ -85,7 +85,7 @@ async function loadInitialData(sClass) {
     document
       .querySelectorAll(".Maximum-Staking-Amount")
       .forEach(function (element) {
-        element.innerHTML = `${(10000000).toLocaleString()} ${
+        element.innerHTML = `${(2500000).toLocaleString()} ${
           SELECT_CONTRACT[_NETWORK_ID].TOKEN.symbol
         }`;
       });
