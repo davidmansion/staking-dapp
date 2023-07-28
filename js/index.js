@@ -80,7 +80,7 @@ async function loadInitialData(sClass) {
     document
       .querySelectorAll(".Minimum-Staking-Amount")
       .forEach(function (element) {
-        element.innerHTML = `${minA}`;
+        element.innerHTML = `${2500}`
       });
     document
       .querySelectorAll(".Maximum-Staking-Amount")
